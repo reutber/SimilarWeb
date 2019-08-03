@@ -4,31 +4,21 @@
 
 > A Vue.js client project
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
 # playlist-server
 
 > A Node.js server project
 
 ## Build Setup
 
-``` bash
-# install dependencies
+# install dependencies (separately each project client and server)
 npm install
 
-# listening at localhost:8000 - run project
-node app.js
+## Running server and client from root folder
+npm run client (serve with hot reload at localhost:8080)
+npm run server (listening at localhost:8000 - run project)
+
+# Running Test server (open server folder)
+npm run test
+
+
 
