@@ -14,5 +14,5 @@ app.use('/playlist', PlayListRoute);
 server.listen(8000, () => {
   const host = server.address().address;
   const port = server.address().port;
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('SimilarWeb listening at http://%s:%s', host, port);
 });

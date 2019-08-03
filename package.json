@@ -1,0 +1,20 @@
+{
+  "name": "similarweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd ./client && npm run start",
+    "server": "cd ./server && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reutber/SimilarWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reutber/SimilarWeb/issues"
+  },
+  "homepage": "https://github.com/reutber/SimilarWeb#readme"
+}

@@ -16,8 +16,9 @@ export default {
 </script>
 <style>
 
- body {
+ html,body {
     overflow: hidden;
-    margin: 0;   
+    margin: 0;  
+    height: 100%; 
 }
 </style>
